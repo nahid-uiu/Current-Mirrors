@@ -16,8 +16,9 @@ $I_{out} = \frac{1}{2} \mu_n C_{ox} (\frac{W_{2}}{L_{2}}) \left( V_{GS} - V_{TH}
 
 $\frac{I_{out}}{I_{ref}} = \frac{(\frac{W_{2}}{L_{2}})}{(\frac{W_{1}}{L_{1}})} I_{ref} $
 
+By adjusting the dimensions of both transistors, we can achieve the same current, amplified or scaled down. The key advantage of this topology is its ability to accurately replicate the current, independent of process variations and temperature changes.
 <br clear="left"/>
-
+### Cadence Virtuoso Simulation of Basic Current Mirrors
 <p align="center" width="100%">
     <img width="30%" src="https://github.com/user-attachments/assets/2692c6cf-0641-4041-a4fe-e2f958ff0c17"> 
     <img width="30%" src="https://github.com/user-attachments/assets/2692c6cf-0641-4041-a4fe-e2f958ff0c17"> 
