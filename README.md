@@ -20,10 +20,10 @@ By adjusting the dimensions of both transistors, we can achieve the same current
 <br clear="left"/>
 ### Cadence Virtuoso Simulation of Basic Current Mirrors
 <p align="center" width="100%">
-    <img width="30%" src="https://github.com/user-attachments/assets/2692c6cf-0641-4041-a4fe-e2f958ff0c17"> 
-    <img width="30%" src="https://github.com/user-attachments/assets/2692c6cf-0641-4041-a4fe-e2f958ff0c17"> 
-    <img width="30%" src="https://github.com/user-attachments/assets/2692c6cf-0641-4041-a4fe-e2f958ff0c17" alt> 
-  <em>image_caption</em>
+    <img width="29%" src="https://github.com/user-attachments/assets/9acc7709-1258-4a7e-9606-4d4bc6fe5e49"> 
+    <img width="33.3%" src="https://github.com/user-attachments/assets/e679934a-ca41-4ed7-a75e-271cfdc82d7e"> 
+    <img width="36%" src="https://github.com/user-attachments/assets/0361b08b-6be6-4a59-b2ec-055dc5597d57" alt> 
+  <em>Fig.01: (A) The Design Parameters, (B) DC Operating Points (C) Output Characteristics </em>
 </p>
 
 This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
