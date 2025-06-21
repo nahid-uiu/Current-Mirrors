@@ -39,3 +39,4 @@ The above current mirror shows that both transistors share the same gate-source 
 4. Limited Output Voltage Swing
 
 ## Cascode Current-Mirrors
+<img align="left" width="25%" src="https://github.com/user-attachments/assets/d93af4d9-ae5e-469d-bbb9-0e3fa65c4720">
