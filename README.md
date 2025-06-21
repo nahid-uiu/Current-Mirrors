@@ -26,6 +26,56 @@ By adjusting the dimensions of both transistors, we can achieve the same current
   <em>Fig.01: (A) The Design Parameters, (B) DC Operating Points (C) Output Characteristics </em>
 </p>
 
+The drain current of $M_2$, will equal the current in $Q_1$, $I_{\text{REF}}$, at the value of $V_{\text{OUT}}$ that causes the two devices to have the same $V_{\text{DS}}$ that is,
+
+$$
+V_{\text{OUT}} = V_{\text{GS}}
+$$
+Certainly! Here are some well-explained **drawbacks of a simple current mirror**:
+
+---
+
+### ⚠️ **Drawbacks of a Simple Current Mirror**
+
+1. ### **Low Output Impedance**
+
+   * The simple current mirror uses a single transistor to mirror the output current.
+   * This transistor behaves like a **current source**, but its output impedance is limited to the **output resistance $r_o$** of the MOSFET:
+
+     $$
+     r_o = \frac{1}{\lambda I_D}
+     $$
+   * A low output impedance means that the current mirror cannot maintain a constant current under varying load conditions or output voltages, reducing its accuracy as a current source.
+
+2. ### **Threshold Voltage (V\textsubscript{TH}) Mismatch**
+
+   * Current mirroring assumes the two transistors are **perfectly matched**, especially in threshold voltage $V_{TH}$.
+   * In practice, **process variations** cause mismatch in $V_{TH}$, leading to **current mismatch** between the reference and output branches.
+   * Even small $V_{TH}$ differences can cause significant current errors due to the exponential dependence in subthreshold or quadratic in saturation.
+
+3. ### **Channel-Length Modulation**
+
+   * The output current is also affected by **channel-length modulation** (modeled by λ), which is not compensated in a basic mirror.
+   * As $V_{OUT}$ changes, $I_{OUT}$ slightly increases—this breaks the ideal current source behavior.
+
+4. ### **Limited Output Voltage Swing**
+
+   * For the output transistor to stay in saturation, $V_{OUT}$ must be greater than $V_{GS} - V_{TH}$.
+   * This limits the **minimum output voltage**, reducing the available voltage swing, especially in low-voltage designs.
+
+5. ### **No Temperature Compensation**
+
+   * A simple current mirror is sensitive to temperature changes, which affect mobility, threshold voltage, and thus the mirrored current.
+   * More advanced mirrors (e.g., Wilson or cascode) can offer better thermal stability.
+
+---
+
+### 🛠️ **Summary**
+
+While simple current mirrors are compact and easy to implement, their **accuracy and performance are limited** due to low output impedance, transistor mismatch, and sensitivity to temperature and supply variations. For precision applications, **improved topologies** like **cascode**, **Wilson**, or **regulated mirrors** are preferred.
+
+Let me know if you'd like this formatted for a report or LaTeX document!
+
 This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
 This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
 This sentence uses `$` delimiters to show math inline: $\sqrt{3x-1}+(1+x)^2$
