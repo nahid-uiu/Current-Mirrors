@@ -44,6 +44,7 @@ The above current mirror shows that both transistors share the same gate-source 
 $V_{GS_3} = V_{G_3} - V_{S_3} = V_{b} - V_{y}$ <br> 
 $V_{b} = V_{GS_3}+V_{y}$ <br> 
 $V_{b} = V_{GS_3}+V_{GS_1}$ <br>
+
 <br clear="left"/>
 
 
