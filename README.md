@@ -45,8 +45,14 @@ $V_{b} = V_{GS_3}+V_{y}$ <br>
 $V_{b} = V_{GS_3}+V_{GS_1}$ <br>
 
 <br clear="left"/>
-
-
 <img align="left" width="25%" src="https://github.com/user-attachments/assets/d93af4d9-ae5e-469d-bbb9-0e3fa65c4720">
 
+The $V_b$ can be established by two diode-connected devices in series provided that $V_{GS_0} + V_{GS_1} = V_{GS_3} + V_{GS_1}$  and hence $V_{GS_0} = V_{GS_3}.$  
 
+On the otherhand the minimum required output voltage $(V_{OUT_{min}})$ to keep both $M_3$ saturation $V_{DS_3} = V_{GS_3} - V_{TH} = V_{GS_0} - V_{TH}$ <br>
+
+Finally,  $(V_{OUT_{min}}) = 2 V_{GS_1} -  V_{TH} = 2 (V_{GS_1} - V_{TH}) + V_{TH}) = 2 V_{OV} + V_{TH} $
+
+In summary, the cascode current mirror needs higher headroom due to additional stacked transistors but provides much better output impedance and current matching.
+<br clear="left"/>
+### Cadence Virtuoso Simulation of Cascode Current Mirror
