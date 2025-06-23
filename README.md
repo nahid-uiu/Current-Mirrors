@@ -56,3 +56,12 @@ Finally,  $(V_{OUT_{min}}) = 2 V_{GS_1} -  V_{TH} = 2 (V_{GS_1} - V_{TH}) + V_{T
 In summary, the cascode current mirror requires higher headroom due to additional stacked transistors but provides much better output impedance and current matching.
 <br clear="left"/>
 ### Cadence Virtuoso Simulation of Cascode Current Mirror
+### Drawbacks of a Simple Current Mirror
+### Comparison Between The Current Mirrors
+
+| Feature                 | Basic Current Mirror | Cascode Current Mirror |
+| ----------------------- | -------------------- | ---------------------- |
+| Headroom Requirement    | Low                  | High                   |
+| Output Resistance       | Low                  | High                   |
+| Current Matching        | Moderate             | Excellent              |
+| Low-Voltage Suitability | Good                 | Poor                   |
