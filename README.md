@@ -40,7 +40,6 @@ The above current mirror shows that both transistors share the same gate-source 
 
 ## Cascode Current-Mirrors
 <img align="left" width="27%" src="https://github.com/user-attachments/assets/4c2384b0-fbc4-4737-900b-ec20dfbeffd5"> To mitigate low resistance $(R_{OUT})$ and achieve lower current variation  $(\Delta I = \frac{\Delta V}{R_{OUT}})$ at the output of the current mirror, we can use a cascode architecture instead of the basic current mirror structure. In this case an appropriate bias voltage $V_b$ is required such that $V_x = V_y$ , ensuring that both $V_{DS_1}$ and $V_{DS_2}$ are equal, allowing the output current to match the reference current. As, $V_x = V_y$, $V_{DS_1}$ = $V_{DS_2}$, $V_{DS_2}$ = $V_{GS_1}$ we can write, 
-
 $V_{GS_3} = V_{G_3} - V_{S_3} = V_{b} - V_{y}$ <br> 
 $V_{b} = V_{GS_3}+V_{y}$ <br> 
 $V_{b} = V_{GS_3}+V_{GS_1}$ <br>
