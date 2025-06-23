@@ -65,3 +65,7 @@ In summary, the cascode current mirror requires higher headroom due to additiona
 | Output Resistance       | Low                  | High                   |
 | Current Matching        | Moderate             | Excellent              |
 | Low-Voltage Suitability | Good                 | Poor                   |
+
+![Screenshot_2025-06-23_170353-removebg-preview](https://github.com/user-attachments/assets/26c80729-5454-44de-a333-ad5e15b4da15)
+
+
