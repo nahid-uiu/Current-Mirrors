@@ -53,6 +53,6 @@ On the otherhand the minimum required output voltage $(V_{OUT_{min}})$ to keep b
 
 Finally,  $(V_{OUT_{min}}) = 2 V_{GS_1} -  V_{TH} = 2 (V_{GS_1} - V_{TH}) + V_{TH}) = 2 V_{OV} + V_{TH} $
 
-In summary, the cascode current mirror needs higher headroom due to additional stacked transistors but provides much better output impedance and current matching.
+In summary, the cascode current mirror requires higher headroom due to additional stacked transistors but provides much better output impedance and current matching.
 <br clear="left"/>
 ### Cadence Virtuoso Simulation of Cascode Current Mirror
